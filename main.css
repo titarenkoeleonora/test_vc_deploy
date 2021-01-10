@@ -1,20 +1,20 @@
 @font-face {
   font-family: "Roboto-Regular";
-  src: local("Roboto-Regular"), url("../fonts/Roboto-Regular.woff2"), url("../fonts/Roboto-Regular.woff");
+  src: local("Roboto-Regular"), url("./fonts/Roboto-Regular.woff2"), url("./fonts/Roboto-Regular.woff");
   font-style: normal;
   font-weight: 500;
   font-display: swap; }
 
 @font-face {
   font-family: "Roboto-Medium";
-  src: local("Roboto-Medium"), url("../fonts/Roboto-Medium.woff2"), url("../fonts/Roboto-Medium.woff");
+  src: local("Roboto-Medium"), url("./fonts/Roboto-Medium.woff2"), url("./fonts/Roboto-Medium.woff");
   font-style: normal;
   font-weight: 400;
   font-display: swap; }
 
 @font-face {
   font-family: "Roboto-Bold";
-  src: local("Roboto-Bold"), url("../fonts/Roboto-Bold.woff2"), url("../fonts/Roboto-Bold.woff");
+  src: local("Roboto-Bold"), url("./fonts/Roboto-Bold.woff2"), url("./fonts/Roboto-Bold.woff");
   font-style: normal;
   font-weight: 700;
   font-display: swap; }
@@ -42,21 +42,21 @@ a {
 
 @font-face {
   font-family: "Roboto-Regular";
-  src: local("Roboto-Regular"), url("../fonts/Roboto-Regular.woff2"), url("../fonts/Roboto-Regular.woff");
+  src: local("Roboto-Regular"), url("./fonts/Roboto-Regular.woff2"), url("./fonts/Roboto-Regular.woff");
   font-style: normal;
   font-weight: 500;
   font-display: swap; }
 
 @font-face {
   font-family: "Roboto-Medium";
-  src: local("Roboto-Medium"), url("../fonts/Roboto-Medium.woff2"), url("../fonts/Roboto-Medium.woff");
+  src: local("Roboto-Medium"), url("./fonts/Roboto-Medium.woff2"), url("./fonts/Roboto-Medium.woff");
   font-style: normal;
   font-weight: 400;
   font-display: swap; }
 
 @font-face {
   font-family: "Roboto-Bold";
-  src: local("Roboto-Bold"), url("../fonts/Roboto-Bold.woff2"), url("../fonts/Roboto-Bold.woff");
+  src: local("Roboto-Bold"), url("./fonts/Roboto-Bold.woff2"), url("./fonts/Roboto-Bold.woff");
   font-style: normal;
   font-weight: 700;
   font-display: swap; }
@@ -226,7 +226,7 @@ input[type="range"]::-moz-range-thumb {
     left: 50%;
     width: 7px;
     height: 7px;
-    background-image: url("../../images/rectangle.svg");
+    background-image: url("./images/rectangle.svg");
     background-size: 7px 7px; }
   @media (min-width: 768px) {
     .amount-choice__input-bubble {
@@ -237,7 +237,7 @@ input[type="range"]::-moz-range-thumb {
         top: 23px;
         width: 7px;
         height: 7px;
-        background-image: url("../../images/rectangle.svg");
+        background-image: url("./images/rectangle.svg");
         background-size: 7px 7px; } }
 
 .amount-choice__input-range-wrapper {
@@ -359,7 +359,7 @@ input[type="range"]::-moz-range-thumb {
     left: 98px;
     width: 9px;
     height: 9px;
-    background-image: url("../../images/rectangle.svg");
+    background-image: url("./images/rectangle.svg");
     background-size: 9px 9px;
     background-position: center; }
   .amount-result__detailed-description--investment {
@@ -397,7 +397,7 @@ input[type="range"]::-moz-range-thumb {
   margin-left: -40px;
   width: 55px;
   height: 56px;
-  background-image: url("../../images/coin.png"); }
+  background-image: url("./images/coin.png"); }
   .amount-result__coin:last-child {
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -436,7 +436,7 @@ input[type="range"]::-moz-range-thumb {
     right: -15px;
     width: 13px;
     height: 5px;
-    background-image: url("../../images/vector.svg");
+    background-image: url("./images/vector.svg");
     background-size: 13px 5px; }
   .statistics__open-button--active::after {
     transform: rotate(180deg); }
